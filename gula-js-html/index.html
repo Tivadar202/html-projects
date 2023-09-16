@@ -14,18 +14,25 @@
     <main>
       <section class="section-container">
         <div class="gula">
-          <h2>A gúla paramétereinek számítása</h2>
-          <div class="adatok">
-            <div class="adat">
-              <label>alapTerület: </label>
-              <input type="number" id="terulet" />
+          <h2>A négy oldalú gúla paramétereinek számítása</h2>
+          <div class="adatok-container">
+            <div class="adatok">
+              <div class="adat">
+                <label>alapÉl: </label>
+                <input type="number" id="edge" />
+              </div>
+              <div class="adat">
+                <span>Magasság: </span>
+                <input type="number" id="height" />
+              </div>
             </div>
-            <div class="adat">
-              <span>Magasság: </span>
-              <input type="number" id="magassag" />
-            </div>
+            <button class="btn" id="math">Számol</button>
           </div>
         </div>
+      </section>
+      <section class="eredmeny-container">
+        <p class="eredmeny" id="f">Felszín:</p>
+        <p class="eredmeny" id="t">Térfogat:</p>
       </section>
     </main>
     <script src="script.js"></script>

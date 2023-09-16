@@ -14,6 +14,7 @@ body {
   border-radius: 7px;
   box-shadow: 5px 5px 20px #a3c1dd;
   margin-bottom: 60px;
+  align-items: center;
 }
 h1 {
   color: #0a2844;
@@ -25,7 +26,45 @@ h2 {
 }
 
 .adat {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-left: 30%;
   display: flex;
+  width: 260px;
+  margin-left: 150px;
+  justify-content: space-between;
+}
+.adatok-container {
+  display: flex;
+  width: 500px;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.btn {
+  height: 50px;
+  padding: 0 15px 0 15px;
+  font-size: 1.5em;
+  font-weight: 700;
+  box-shadow: 5px 5px 10px rgb(98, 98, 238);
+  border: none;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  background-color: #0a2844;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: green;
+  transform: translateX(10px);
+  box-shadow: 5px 5px 40px rgb(41, 245, 41);
+}
+
+.eredmeny-container {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: white;
+  text-align: center;
 }
