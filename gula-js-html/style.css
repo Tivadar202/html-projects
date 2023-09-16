@@ -1,0 +1,31 @@
+body {
+  margin-left: 30px;
+  color: #bad1e6;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header-container {
+  background-color: #e8f0f7;
+  height: 100px;
+  margin: 30px 30px 0 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+  box-shadow: 5px 5px 20px #a3c1dd;
+  margin-bottom: 60px;
+}
+h1 {
+  color: #0a2844;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.adat {
+  margin-bottom: 20px;
+  margin-left: 30%;
+  display: flex;
+}
